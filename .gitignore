@@ -25,6 +25,7 @@
 .config/configstore/
 .config/gh/
 .config/cody-ai/
+.config/alacritty/themes/
 .config/*/node_modules/
 .config/*/cache/
 .config/*/.cache/
