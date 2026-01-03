@@ -1,0 +1,40 @@
+# Ignore everything by default (since we're tracking home directory)
+*
+
+# Whitelist specific config directories
+!.config/
+!.config/fish/
+!.config/fish/**
+!.config/nvim/
+!.config/nvim/**
+!.config/alacritty/
+!.config/alacritty/**
+!.config/git/
+!.config/git/**
+!.config/bat/
+!.config/bat/**
+!.config/atuin/
+!.config/atuin/**
+!.config/home-manager/
+!.config/home-manager/**
+!.config/nix-darwin/
+!.config/nix-darwin/**
+
+# Explicitly ignore problematic directories
+.config/yarn/
+.config/configstore/
+.config/gh/
+.config/cody-ai/
+.config/*/node_modules/
+.config/*/cache/
+.config/*/.cache/
+
+# Ignore common dotfile directories with sensitive/generated content
+.cache/
+.npm/
+.yarn/
+.node_modules/
+node_modules/
+
+# Ignore this gitignore file itself (optional)
+!.gitignore
