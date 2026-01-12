@@ -16,7 +16,7 @@ rust-lang.rust-analyzer
 fwcd.kotlin
 vscjava.vscode-java-pack
 ms-vscode.cpptools
-ms-vscode.csharp
+ms-dotnettools.csharp
 Gleam.gleam
 ziglang.vscode-zig
 Prisma.prisma
