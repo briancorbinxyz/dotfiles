@@ -2,7 +2,6 @@
 # Install with: cat ~/.config/vscode/extensions.txt | grep -v '^#' | xargs -L 1 code --install-extension
 
 # AI Assistants
-sourcegraph.cody-ai
 Codeium.codeium
 
 # Git & GitHub
