@@ -1,7 +1,9 @@
 # CLI tools
 brew "atuin"
 brew "fzf"
+brew "gh"
 brew "git"
+brew "lsd"
 brew "neovim"
 brew "pyenv"
 brew "thefuck"
@@ -20,5 +22,6 @@ cask "font-meslo-lg-nerd-font"
 cask "alacritty"
 cask "claude-code"
 cask "docker-desktop"
+cask "ghostty"
 cask "visual-studio-code"
 
