@@ -21,7 +21,9 @@ cask "font-meslo-lg-nerd-font"
 # Applications (GUI)
 cask "alacritty"
 cask "claude-code"
+cask "dashlane"
 cask "docker-desktop"
 cask "ghostty"
+cask "obsidian"
 cask "visual-studio-code"
 
