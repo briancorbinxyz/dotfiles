@@ -51,6 +51,18 @@ npm install -g fkill-cli
 echo "==> Rebuilding bat cache..."
 bat cache --build
 
+# Set up fzf shell integration
+echo "==> Setting up fzf..."
+$(brew --prefix)/opt/fzf/install --key-bindings --completion --no-update-rc --no-bash --no-fish
+
+# Install VS Code extensions
+if command -v code &> /dev/null; then
+    echo "==> Installing VS Code extensions..."
+    grep -v '^#' "$HOME/.config/vscode/extensions.txt" | grep -v '^$' | while read -r ext; do
+        code --install-extension "$ext" --force
+    done
+fi
+
 # Set remote to GitHub (in case cloned from local)
 git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" remote set-url origin https://github.com/briancorbinxyz/dotfiles.git
 

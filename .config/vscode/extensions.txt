@@ -1,0 +1,47 @@
+# VS Code Extensions
+# Install with: cat ~/.config/vscode/extensions.txt | grep -v '^#' | xargs -L 1 code --install-extension
+
+# AI Assistants
+sourcegraph.cody-ai
+Codeium.codeium
+
+# Git & GitHub
+eamodio.gitlens
+GitHub.vscode-pull-request-github
+Atlassian.atlascode
+
+# Languages
+ms-python.python
+rust-lang.rust-analyzer
+fwcd.kotlin
+vscjava.vscode-java-pack
+ms-vscode.cpptools
+ms-vscode.csharp
+Gleam.gleam
+ziglang.vscode-zig
+Prisma.prisma
+HashiCorp.terraform
+
+# Web Development
+bradlc.vscode-tailwindcss
+austenc.tailwind-docs
+pranaygp.vscode-css-peek
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+
+# Tools & Utilities
+vscodevim.vim
+ms-azuretools.vscode-docker
+Gruntfuggly.todo-tree
+johnpapa.vscode-peacock
+yzhang.markdown-all-in-one
+hediet.vscode-drawio
+jebbs.plantuml
+pnp.polacode
+SonarSource.sonarlint-vscode
+oracle-labs-graalvm.visualvm-vscode
+
+# Themes & Icons
+vscode-icons-team.vscode-icons
+Equinusocio.vsc-material-theme
+nopjmp.fairyfloss

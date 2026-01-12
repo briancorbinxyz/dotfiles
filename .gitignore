@@ -19,6 +19,8 @@
 !.config/home-manager/**
 !.config/nix-darwin/
 !.config/nix-darwin/**
+!.config/vscode/
+!.config/vscode/**
 
 # Explicitly ignore problematic directories
 .config/yarn/
