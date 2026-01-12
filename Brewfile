@@ -1,6 +1,7 @@
 # CLI tools
 brew "atuin"
 brew "bat"
+brew "bitwarden-cli"
 brew "fzf"
 brew "gh"
 brew "git"
