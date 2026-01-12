@@ -1,5 +1,6 @@
 # CLI tools
 brew "atuin"
+brew "bat"
 brew "fzf"
 brew "gh"
 brew "git"
