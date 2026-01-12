@@ -11,6 +11,8 @@
 !.config/alacritty/**
 !.config/git/
 !.config/git/**
+!.config/ghostty/
+!.config/ghostty/**
 !.config/bat/
 !.config/bat/**
 !.config/atuin/
