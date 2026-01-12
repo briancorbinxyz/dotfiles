@@ -42,4 +42,5 @@ node_modules/
 !.zshrc
 !Brewfile
 !CLAUDE.md
+!README.md
 !install.sh
