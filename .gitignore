@@ -37,5 +37,8 @@
 .node_modules/
 node_modules/
 
-# Ignore this gitignore file itself (optional)
+# Whitelist root-level files
 !.gitignore
+!.zshrc
+!Brewfile
+!CLAUDE.md
