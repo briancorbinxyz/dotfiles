@@ -40,6 +40,7 @@ cask "dashlane"
 cask "docker-desktop"
 cask "dropbox"
 cask "ghostty"
+cask "github"
 cask "obsidian"
 cask "visual-studio-code"
 
