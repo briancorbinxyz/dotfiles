@@ -188,8 +188,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 alias q=quarkus
 #source <(quarkus completion)
 
-. "$HOME/.atuin/bin/env"
-
+# Atuin shell history (installed via Homebrew)
 eval "$(atuin init zsh)"
 
 alias -s md="bat"

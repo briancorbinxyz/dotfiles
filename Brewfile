@@ -1,16 +1,24 @@
-# Taps (third-party repositories)
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-
 # CLI tools
-brew "atuin" 
+brew "atuin"
+brew "fzf"
 brew "git"
 brew "neovim"
+brew "pyenv"
+brew "thefuck"
 brew "tmux"
-brew "fzf"
+brew "zoxide"
+
+# Zsh plugins
+brew "powerlevel10k"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+# Fonts
+cask "font-meslo-lg-nerd-font"
 
 # Applications (GUI)
-cask "visual-studio-code"
-cask "docker-desktop"
+cask "alacritty"
 cask "claude-code"
+cask "docker-desktop"
+cask "visual-studio-code"
 
