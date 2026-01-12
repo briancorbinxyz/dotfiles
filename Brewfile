@@ -43,6 +43,8 @@ cask "docker-desktop"
 cask "dropbox"
 cask "ghostty"
 cask "github"
+cask "google-chrome"
 cask "obsidian"
+cask "zotero"
 cask "visual-studio-code"
 
