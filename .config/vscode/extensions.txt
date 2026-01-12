@@ -32,6 +32,7 @@ esbenp.prettier-vscode
 # Tools & Utilities
 vscodevim.vim
 ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
 Gruntfuggly.todo-tree
 johnpapa.vscode-peacock
 yzhang.markdown-all-in-one
