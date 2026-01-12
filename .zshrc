@@ -178,15 +178,11 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #alias gw='(function _gw() { local dir=$(pwd); while [ ! -x "$dir/gradlew" ] && [ "$dir" != "/" ]; do dir=$(dirname "$dir"); done; if [ -x "$dir/gradlew" ]; then "$dir/gradlew" "$@"; else echo "No gradlew script found"; fi; }; _gw'
 alias gw='(cd $(git rev-parse --show-toplevel) && ./gradlew'
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+# asdf version manager
+. "$(brew --prefix asdf)/libexec/asdf.sh"
 
-#
 # Java Development
-# - Quarkus Installation: sdk install quarkus
 alias q=quarkus
-#source <(quarkus completion)
 
 # Atuin shell history (installed via Homebrew)
 eval "$(atuin init zsh)"

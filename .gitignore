@@ -39,10 +39,12 @@
 .node_modules/
 node_modules/
 
-# Whitelist root-level files
+# Whitelist root-level files and directories
 !.gitignore
 !.zshrc
 !Brewfile
 !CLAUDE.md
 !README.md
 !install.sh
+!scripts/
+!scripts/**

@@ -1,4 +1,5 @@
 # CLI tools
+brew "asdf"
 brew "atuin"
 brew "bat"
 brew "bitwarden-cli"

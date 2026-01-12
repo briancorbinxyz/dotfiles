@@ -63,6 +63,11 @@ if command -v code &> /dev/null; then
     done
 fi
 
+# Set up asdf version manager and plugins
+if [ -f "$HOME/scripts/asdf-setup.sh" ]; then
+    "$HOME/scripts/asdf-setup.sh"
+fi
+
 # Set remote to GitHub (in case cloned from local)
 git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" remote set-url origin https://github.com/briancorbinxyz/dotfiles.git
 
