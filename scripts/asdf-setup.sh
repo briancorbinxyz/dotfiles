@@ -17,7 +17,7 @@ asdf plugin add quarkus https://github.com/asdf-community/asdf-quarkus.git 2>/de
 echo "==> Installing Java, Gradle, Maven, Quarkus..."
 
 # Java uses different versioning
-asdf install java latest:temurin-21
+asdf install java latest:temurin-25
 
 # Get latest stable versions for others
 GRADLE_VERSION=$(latest_stable gradle)
@@ -34,7 +34,7 @@ echo "    Quarkus: $QUARKUS_VERSION"
 asdf install quarkus "$QUARKUS_VERSION"
 
 echo "==> Setting global versions..."
-asdf set --home java latest:temurin-21
+asdf set --home java latest:temurin-25
 asdf set --home gradle "$GRADLE_VERSION"
 asdf set --home maven "$MAVEN_VERSION"
 asdf set --home quarkus "$QUARKUS_VERSION"
